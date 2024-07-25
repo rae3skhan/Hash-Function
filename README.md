@@ -21,12 +21,12 @@ This project demonstrates the use of hash functions to ensure the integrity of m
 To run this project, simply clone the repository, and open `index.html` in your browser.
 
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/rae3skhan/Hash-Function.git
+cd Hash-Function
 open index.html # On macOS
 # or double-click index.html in your file explorer
+```
 
-```markdown
 # Hash Function Demonstration
 
 This project demonstrates the use of hash functions to ensure the integrity of messages during transmission. It simulates a scenario where a sender generates a hash of their message, sends the message and its hash to a receiver, and then the receiver verifies the message integrity by comparing the received hash with a hash generated from the received message. Additionally, it includes a "Man in the Middle" section to simulate an attacker modifying the message.
@@ -44,17 +44,6 @@ This project demonstrates the use of hash functions to ensure the integrity of m
 - CSS3
 - JavaScript
 - CryptoJS
-
-## Setup
-
-To run this project, simply clone the repository, and open `index.html` in your browser.
-
-```bash
-git clone <repository-url>
-cd <project-directory>
-open index.html # On macOS
-# or double-click index.html in your file explorer
-```
 
 ## How It Works
 
